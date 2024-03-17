@@ -43,7 +43,7 @@ serRoute.route("/update-service/:id")
 
 })
 serRoute.delete("/delete-service/:id",(req,res)=>{
-    conSchema.findByIdAndRemove(mongoose.Types.ObjectId(req.params.id),
+    serSchema.findByIdAndRemove(mongoose.Types.ObjectId(req.params.id),
     (err,data)=>{
         if(err)
             return err;

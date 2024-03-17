@@ -4,7 +4,7 @@ const serSchema = new mongoose.Schema({
     "Name":{type:String},
     "ID":{type:String},
     "PhoneNo":{type:String},
-    "EmailIDD":{type:String},
+    "EmailID":{type:String},
     "Services":{type:String},
     "Pincode":{type:String},
 

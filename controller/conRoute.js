@@ -42,7 +42,7 @@ conRoute.route("/update-con/:id")
             res.json(data)
     })
 })
-petRoute.delete("/delete-con/:id",(req,res)=>{
+conRoute.delete("/delete-con/:id",(req,res)=>{
     conSchema.findByIdAndRemove(mongoose.Types.ObjectId(req.params.id),
     (err,data)=>{
         if(err)

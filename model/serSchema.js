@@ -3,9 +3,9 @@ const mongoose = require("mongoose");
 const serSchema = new mongoose.Schema({
     "Name":{type:String},
     "ID":{type:String},
-    "Phone No.":{type:String},
-    "EmailId":{type:String},
-    "Sercategory":{type:String},
+    "PhoneNo":{type:String},
+    "EmailIDD":{type:String},
+    "Services":{type:String},
     "Pincode":{type:String},
 
     },{
